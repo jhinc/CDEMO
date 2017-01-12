@@ -1,0 +1,11 @@
+src/package.xml 
+src/*copado__*
+*NAMESPACE1__*
+*NAMESPACE2__*
+profiles/*
+permissionsets/*
+flowDefinitions/*
+translations/*
+objectTranslations/*
+sites/*
+siteDotComSites/*
