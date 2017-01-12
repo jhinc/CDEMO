@@ -7,7 +7,6 @@
     <enableSelfCloseCase>false</enableSelfCloseCase>
     <forgotPassTemplate>unfiled$public/PartnerChangePwdEmail</forgotPassTemplate>
     <isSelfRegistrationActivated>false</isSelfRegistrationActivated>
-    <logoDocument>SharedDocuments/Partner_Logo.jpg</logoDocument>
     <newPassTemplate>unfiled$public/PartnerChangePwdEmail</newPassTemplate>
     <newUserTemplate>unfiled$public/PartnerNewUserEmail</newUserTemplate>
     <showActionConfirmation>false</showActionConfirmation>
