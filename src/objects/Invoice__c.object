@@ -52,6 +52,19 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
+        <fullName>Amount__c</fullName>
+        <description>Invoice Amount</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Total amount of this invoice</inlineHelpText>
+        <label>Amount</label>
+        <precision>18</precision>
+        <required>true</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
         <fullName>Discount_Code__c</fullName>
         <externalId>false</externalId>
         <label>Discount Code</label>
