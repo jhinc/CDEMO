@@ -9,6 +9,11 @@
         <value>Invoices</value>
     </caseValues>
     <fields>
+        <help><!-- Total amount of this invoice --></help>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
         <label><!-- Discount Code --></label>
         <name>Discount_Code__c</name>
     </fields>

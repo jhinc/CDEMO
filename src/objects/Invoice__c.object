@@ -45,7 +45,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-    <enableFeeds>false</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>false</enableReports>
     <enableSearch>true</enableSearch>
@@ -70,6 +70,7 @@
         <label>Discount Code</label>
         <length>80</length>
         <required>false</required>
+        <trackFeedHistory>true</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -80,6 +81,7 @@
         <label>Invoice State</label>
         <length>80</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -90,6 +92,7 @@
         <label>Invoice Street 1</label>
         <length>255</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -100,6 +103,7 @@
         <label>Invoice Zip</label>
         <length>10</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -109,6 +113,7 @@
         <externalId>false</externalId>
         <label>Products</label>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>TextArea</type>
     </fields>
@@ -118,6 +123,7 @@
         <label>invoice City</label>
         <length>255</length>
         <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
@@ -125,6 +131,7 @@
     <label>Invoice</label>
     <nameField>
         <label>Invoice Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Invoices</pluralLabel>
