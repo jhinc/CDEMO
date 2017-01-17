@@ -13,7 +13,7 @@ March 2013
   <apex:define name="body"></apex:define>
   <!-- define tags replace the pre-defined areas of the template with whatever custom content you'd like  -->
   <apex:define name="left_header"></apex:define>  
-  <apex:define name="left_sidebar">Salesforce Services Platform Academy</apex:define>  
+  <apex:define name="left_sidebar">Salesforce Services Platform Academy 2</apex:define>  
   <apex:define name="content_header">Examples and Demos</apex:define>  
   <apex:define name="content_main">
   
